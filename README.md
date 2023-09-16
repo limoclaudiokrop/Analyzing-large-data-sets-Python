@@ -1,6 +1,6 @@
 # Analyzing-large-data-sets-Python
 
-## Report Task 1.1
+### Report Task 1.1
 Problem in this task involves reading a big amount of numbers and removing duplicate
 numbers. Note that removing duplicate numbers follows a special rule where only the middle
 element is retained. To complete this task, the values are read in from file into an array. A
@@ -14,7 +14,8 @@ dictionary is appended to the final array. The array with all the duplicated ele
 obtained in the final array. Python dictionary data structure is chosen for this problem since it is
 implemented with a hash map. Therefore inserting and accessing elements takes O(1). The
 total time complexity for this task is O(n), where n is the number of elements in the file.
-Report Task 2.2
+
+### Report Task 2.2
 In this task, we are requested to come up with an efficient algorithm to read in two files. One file
 containing numbers and another containing operations to be done. Operations include
 searching, inserting and deleting elements. To complete this task, two data structures are used
@@ -31,7 +32,7 @@ in O(1). However since a set does not support duplicate elements, a dictionary i
 if the frequency of the element has reached 0 before removing it. Furthemore, since the
 dictionary allows O(1) for adding and lookup of elements, the entire algorithm takes O(n + k)
 where n is the number of elements in the file and k is the number of operations.
-Report Task 2.3
+### Report Task 2.3
 This task involves using parallelism to find frequencies of words in a large text file. To
 accomplish this, the algorithm first reads the text file and stores it as a list of words. It then reads
 the words (to find their frequencies) into another list. The main function then creates processes
