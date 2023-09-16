@@ -1,6 +1,6 @@
 # Analyzing-large-data-sets-Python
 
-Report Task 1.1
+## Report Task 1.1
 Problem in this task involves reading a big amount of numbers and removing duplicate
 numbers. Note that removing duplicate numbers follows a special rule where only the middle
 element is retained. To complete this task, the values are read in from file into an array. A
